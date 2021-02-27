@@ -14,6 +14,7 @@
 
 1. Study-whiteship Master Branch 에 해당 Week 에 자신의 정리 내용을 README.md 로 올린다
    - EX) Week1(Directory) -> Roach(Directory) -> README.md 
+                          
                           -> August(Directory) -> README.md
 
 ## 스터디 진행
