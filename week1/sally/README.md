@@ -70,7 +70,7 @@ JVM은 실행엔진과 Runtime Data Area 그리고 클래스로더로 구성되�
 
 - Garbage Collector: 사용되지 않는 객체를 버려준다.
 
-#### JDK와 JRE의 차이
+### JDK와 JRE의 차이
 
 JDK는 자발 개발도구이고 JRE를 포함하고 있다. JRE는 자바 애플리케이션을 생성하고 실행하기 위한 최소한의 환경을 의미한다.
 
