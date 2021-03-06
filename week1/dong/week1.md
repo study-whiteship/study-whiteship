@@ -14,8 +14,9 @@
 
 
 # JVM이란 무엇인가
-- Java  Virtual Machine 의 약자. (자바 가상 기계)
+- Java  Virtual Machine 의 약자
 - 자바의 특징 중 하나인 WORA(write once run anywhere)을 할 수 있도록 만들어준다.
+  - 사실 write once test anywhere 
 - 컴퓨터로 실행하기
 
 타 언어는 운영체제에 종속적(플랫폼 종속적)이라 아무데서나 실행이 불가하지만 java는 JVM만 있으면 어디서든 실행 가능
@@ -33,17 +34,15 @@
 - 실행과정 예시
 ```
 ```
-
  
-
-바이트코드란 무엇인가
+# 바이트코드란 무엇인가
 : 자바 컴파일러가 자바 소스 프로그램을 컴파일 한 기계어
 
 : 플랫폼에 대한 종속성 없이 JVM에서 실행되는 바이너리 코드다. (2진수로 되어있음)
 
  
 
-JIT 컴파일러란 무엇이며 어떻게 동작하는지
+# JIT 컴파일러란 무엇이며 어떻게 동작하는지
 : JIT(just-in-time compilation)
 
 : JVM , .NET, node.js 등 에서 컴파일 하는 방식
@@ -58,11 +57,9 @@ JIT 컴파일러란 무엇이며 어떻게 동작하는지
 
  
 
-JVM 구성 요소
+# JVM 구성 요소
 1. Class Loader : 컴파일 한 .class 파일을 런타임에 올려서 실행하는 부분
-
 2. Execution Engine : .class 파일을 해석한다 (인터프리터, JIT 방식으로)
-
 3. Runtime Data Area : 해석된 프로그램은 여기서 돌아간다. JVM 메모리 영역.  필요에 따라 GC나 쓰레드 동기화등 관리해줌
 
  
