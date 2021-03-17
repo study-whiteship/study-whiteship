@@ -1,17 +1,20 @@
-# 목표
+# [Week5] 클래스
+- https://github.com/whiteship/live-study/issues/5
+
+## 목표
 자바의 Class에 대해 학습하세요.
 
-# 학습할 것 (필수)
+## 학습할 것 (필수)
 - 클래스 정의하는 방법
 - 객체 만드는 방법 (new 키워드 이해하기)
 - 메소드 정의하는 방법
 - 생성자 정의하는 방법
 - this 키워드 이해하기
 
-# 마감일시
+## 마감일시
 2021년 3월 20일 오전 10시 까지
 
-# 과제 (Optional)
+## 과제 (Optional)
 - int 값을 가지고 있는 이진 트리를 나타내는 Node 라는 클래스를 정의하세요.
 - int value, Node left, right를 가지고 있어야 합니다.
 - BinrayTree라는 클래스를 정의하고 주어진 노드를 기준으로 출력하는 bfs(Node node)와 dfs(Node node) 메소드를 구현하세요.
