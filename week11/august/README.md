@@ -18,8 +18,6 @@
 >   1. In place of String constants
 >   2. In place of integers used as types
 
-굳이 C언어와 비교하자면 C에서 구조체의 목적과 비슷하다. 다만 활용범위에 있어서는 자바에서 훨씬 다양한 방법으로 활용하도록 그 방법들을 제공해준다.
-
 ## Enum 정의하는 방법
 
 열거 타입을 선언하기 위해서는 먼저 열거 타입의 이름을 정하고 열거 타입 이름으로 소스파일(.java)을 생성해야 한다. 열거 타입 이름은 관례적으로 첫 문자를 대문자로 하고 나머지는 소문자로 구성한다. 만약 여러 단어로 구성된 이름이라면 단어 첫 문자는 대문자로 하는 것이 관례이다. (Camel Case)
@@ -98,9 +96,9 @@ public class EnumTest {
             Week weekDay = Week.valueOf(day);
 
             if (weekDay == Week.SATURDAY || weekDay == Week.SUNDAY) {
-                System.out.println("It's Weekdays!");
-            } else {
                 System.out.println("It's Weekend!");
+            } else {
+                System.out.println("It's Weekdays!");
             }
         }
 
