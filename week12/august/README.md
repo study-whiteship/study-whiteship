@@ -141,7 +141,7 @@ public @interface AnnotationName {
 위와 같이 애노테이션을 정의할 경우, 클래스, 필드, 메소드만 애노테이션을 적용할 수 있다는 의미이다.
 
 ```java
-@Annotation
+@AnnotationName
 public class ClassName {
 		@AnnotationName
 		private String fieldName;
